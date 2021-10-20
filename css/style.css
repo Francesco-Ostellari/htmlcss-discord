@@ -128,23 +128,24 @@ a.btn.dark:focus {
 
 .first-section {
     width: 100%;
+    height: 700px;
 }
 
-.left-column {
+.first-section .left-column {
     width: 60%;
 }
 
-.right-column {
+.first-section .right-column {
     width: 40%;
 }
 
 .first-section .left-column .img-first-section {
     float: right;
-    width: 80%;
+    width: 50%;
     padding: 5em;
 }
 .first-section .right-column .first-section-title {
-    padding: 5em 5em 0em 0em;
+    padding: 3.5em 5em 0em 0em;
     width: 60%;
     color: #23272a;
     font-size: 2em;
@@ -152,6 +153,42 @@ a.btn.dark:focus {
 
 .first-section .right-column .first-section-desc {
     padding: 1em 5em 0em 0em;
+    width: 60%;
+    color: #23272a;
+    font-size: 1.1em;
+}
+
+.second-section {
+    width: 100%;
+    height: 700px;
+    background-color: #F6F6F6;
+}
+
+.second-section .right-column {
+    width: 60%;
+}
+
+.second-section .left-column {
+    width: 40%;
+}
+
+.second-section .right-column .img-second-section {
+    float: left;
+    width: 50%;
+    padding: 5em;
+}
+
+.second-section .left-column .second-section-title {
+    padding: 3.5em 0em 0em 2.7em;
+    float: right;
+    width: 60%;
+    color: #23272a;
+    font-size: 2em;
+}
+
+.second-section .left-column .second-section-desc {
+    padding: 1em 0em 0em 5em;
+    float: right;
     width: 60%;
     color: #23272a;
     font-size: 1.1em;
