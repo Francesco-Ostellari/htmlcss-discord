@@ -229,6 +229,8 @@ a.btn.dark:focus {
 .fourth-section {
     width: 100%;
     height: 700px;
+    background-color: #F6F6F6;
+    padding: 3em 0;
 }
 
 .fourth-section .first-row {
@@ -252,7 +254,7 @@ a.btn.dark:focus {
 }
 .fourth-section .second-row {
     width: 100%;
-    height: 400px;
+    height: 200px;
     padding: 0 10%;
     text-align: center;
 }
@@ -264,7 +266,7 @@ a.btn.dark:focus {
 .fourth-section .third-row {
     width: 100%;
     height: 150px;
-    padding: 3% 10%;
+    padding: 10% 10%;
 }
 .btn-big {
     margin: 0 auto;
@@ -272,4 +274,13 @@ a.btn.dark:focus {
 }
 #btn-big {
     background-color: #8EA1E1;
+}
+
+.stars {
+    background-image: url('../img/stars.svg');
+    width: 60%;
+    margin: 0 auto;
+}
+.ready {
+    text-align: center;
 }
