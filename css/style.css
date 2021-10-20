@@ -278,9 +278,12 @@ a.btn.dark:focus {
 
 .stars {
     background-image: url('../img/stars.svg');
-    width: 60%;
+    width: 40%;
+    height: 50px;
     margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
 }
 .ready {
-    text-align: center;
+    font-size: 20px;
 }
