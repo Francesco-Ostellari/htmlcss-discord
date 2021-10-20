@@ -128,7 +128,7 @@ a.btn.dark:focus {
 
 .first-section {
     width: 100%;
-    height: 700px;
+    height: 800px;
 }
 
 .first-section .left-column {
@@ -160,7 +160,7 @@ a.btn.dark:focus {
 
 .second-section {
     width: 100%;
-    height: 700px;
+    height: 800px;
     background-color: #F6F6F6;
 }
 
@@ -196,7 +196,7 @@ a.btn.dark:focus {
 
 .third-section {
     width: 100%;
-    height: 700px;
+    height: 800px;
 }
 
 .third-section .left-column {
@@ -228,7 +228,7 @@ a.btn.dark:focus {
 
 .fourth-section {
     width: 100%;
-    height: 700px;
+    height: 800px;
     background-color: #F6F6F6;
     padding: 3em 0;
 }
@@ -278,6 +278,8 @@ a.btn.dark:focus {
 
 .stars {
     background-image: url('../img/stars.svg');
+    background-size: cover;
+    background-position: center;
     width: 40%;
     height: 50px;
     margin: 0 auto;
