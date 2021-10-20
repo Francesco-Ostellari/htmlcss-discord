@@ -289,3 +289,48 @@ a.btn.dark:focus {
 .ready {
     font-size: 20px;
 }
+
+footer {
+    background-color: #23272A;
+    height: 800px;
+    width: 100%;
+}
+
+footer 
+.column-1, 
+.column-2, 
+.column-3, 
+.column-4, 
+.column-5{
+    width: 18%;
+    height: 800px;
+    float: left;
+    margin-right: 10px;
+    padding: 5% 0 0 10%;
+}
+
+.text {
+    color: #8EA1E1;
+}
+
+.text-2 {
+    color: white;
+    margin: 10px 0;
+}
+
+.bandiera {
+    height: 20px;
+    margin-top: 20px;
+}
+
+.lingua {
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    color: white;
+}
+
+.social {
+    margin-top: 20px;
+    color: white;
+}
