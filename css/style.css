@@ -106,7 +106,8 @@ a.btn:hover {
 
 .jumbo-desc {
     line-height: 1.7em;
-    margin-bottom: 1.1em;
+    margin: 0 auto 1.1em;
+    width: 80%;
 }
 
 a.btn.big{
@@ -125,5 +126,33 @@ a.btn.dark:focus {
     color: #265ee8;
 }
 
+.first-section {
+    width: 100%;
+}
 
+.left-column {
+    width: 60%;
+}
 
+.right-column {
+    width: 40%;
+}
+
+.first-section .left-column .img-first-section {
+    float: right;
+    width: 80%;
+    padding: 5em;
+}
+.first-section .right-column .first-section-title {
+    padding: 5em 5em 0em 0em;
+    width: 60%;
+    color: #23272a;
+    font-size: 2em;
+}
+
+.first-section .right-column .first-section-desc {
+    padding: 1em 5em 0em 0em;
+    width: 60%;
+    color: #23272a;
+    font-size: 1.1em;
+}
