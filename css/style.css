@@ -193,3 +193,83 @@ a.btn.dark:focus {
     color: #23272a;
     font-size: 1.1em;
 }
+
+.third-section {
+    width: 100%;
+    height: 700px;
+}
+
+.third-section .left-column {
+    width: 60%;
+}
+
+.third-section .right-column {
+    width: 40%;
+}
+
+.third-section .left-column .img-third-section {
+    float: right;
+    width: 50%;
+    padding: 5em;
+}
+.third-section .right-column .third-section-title {
+    padding: 3.5em 5em 0em 0em;
+    width: 60%;
+    color: #23272a;
+    font-size: 2em;
+}
+
+.third-section .right-column .third-section-desc {
+    padding: 1em 5em 0em 0em;
+    width: 60%;
+    color: #23272a;
+    font-size: 1.1em;
+}
+
+.fourth-section {
+    width: 100%;
+    height: 700px;
+}
+
+.fourth-section .first-row {
+    width: 100%;
+    height: 150px;
+    padding: 0 10%;
+}
+.fourth-section .first-row .fourth-section-title {
+    text-align: center;
+    font-size: 2em;
+    color: #23272a;
+}
+
+.fourth-section .first-row .fourth-section-desc {
+    font-size: 1.1em;
+    text-align: center;
+    color: #23272a;
+    width: 30%;
+    margin: 0 auto;
+    padding-top: 1em;
+}
+.fourth-section .second-row {
+    width: 100%;
+    height: 400px;
+    padding: 0 10%;
+    text-align: center;
+}
+
+.fourth-section .second-row .img-fourth-section {
+    width: 40%;
+    text-align: center;
+}
+.fourth-section .third-row {
+    width: 100%;
+    height: 150px;
+    padding: 3% 10%;
+}
+.btn-big {
+    margin: 0 auto;
+    width: 200px;
+}
+#btn-big {
+    background-color: #8EA1E1;
+}
