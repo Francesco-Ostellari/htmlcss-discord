@@ -274,6 +274,7 @@ a.btn.dark:focus {
 }
 #btn-big {
     background-color: #8EA1E1;
+    width: 220px;
 }
 
 .stars {
@@ -292,8 +293,8 @@ a.btn.dark:focus {
 
 footer {
     background-color: #23272A;
-    height: 800px;
     width: 100%;
+    position: relative;
 }
 
 footer 
@@ -303,10 +304,9 @@ footer
 .column-4, 
 .column-5{
     width: 18%;
-    height: 800px;
     float: left;
-    margin-right: 10px;
-    padding: 5% 0 0 10%;
+    margin: 0 10px 0 0;
+    padding: 5% 0 0 5%;
 }
 
 .text {
@@ -333,4 +333,50 @@ footer
 .social {
     margin-top: 20px;
     color: white;
+}
+
+.logo-bottom {
+    border-top: 1px solid #8EA1E1;
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+    text-align: center;
+}
+
+i {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+#down-arrow {
+    color: white;
+    font-size: 10px;
+}
+
+.column {
+    width: 100%;
+    content: '';
+    display: table;
+    clear: both;
+    padding-bottom: 20px;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#btn {
+    width: 110px;
+    text-align: center;
+    background-color: #8EA1E1;
 }
